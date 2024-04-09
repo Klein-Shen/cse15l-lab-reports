@@ -1,5 +1,6 @@
 # Lab1
 ## Report
+[link](https://ucsd-cse15l-s24.github.io/week1/index.html#lab-report-1---remote-access-and-filesystem-week-1)
 * *no arguments* in the order of **cd, ls, and cat**
 
 **the absolute path to the working directory was right before the command was run** : 
