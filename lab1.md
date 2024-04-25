@@ -67,7 +67,7 @@ A path to a directory as an argument for `cd` means change the working directory
 A path to a directory as an argument for `ls` means list the files or folders in the new path without changing the working directory.
 
 > error:
-`cat` want to get the content, but there is no content in the path since the path point a folder.
+`cat` want to get the content, but there is no content in the path since the path point a folder. So we need to point to a file, then `cat` will work.
 
 ![image](https://github.com/Klein-Shen/cse15l-lab-reports/assets/165833763/3ecb058d-7382-4c4f-b117-2809bb66748d)
 
@@ -84,13 +84,16 @@ was waiting for me to provide something. And it gave the exceptions.
 2. C:\Users\NingqiShen\Desktop\hello\word\helloworld
 3. C:\Users\NingqiShen\Desktop\hello\word\helloworld
 ---
+
+
 > error:
-`cd` want to set a new location, but there are exceptions since the item is a file not a folder.
+If the `cd` command points to the correct path, the command will be executed, otherwise an error will be reported.
 
 ![image](https://github.com/Klein-Shen/cse15l-lab-reports/assets/165833763/77f6124d-974e-402f-b63b-55b2471af089)
 
 
 A path to a file as an argument for `cd` gave the exceptions and said that the path does not exist. Maybe I think the cd cannot open a file.
+
 
 > no error
 
@@ -99,6 +102,7 @@ A path to a file as an argument for `cd` gave the exceptions and said that the p
 
 
 A path to a file as an argument for `ls` it does list the file, but in this folder there are some other files or folders, but it only showed the files as a lsit what I put after the command `HelloWorld.java`.
+
 
 > no error
 
